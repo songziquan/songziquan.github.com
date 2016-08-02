@@ -1,0 +1,71 @@
+﻿<!DOCTYPE html>
+<html>
+  <head>
+    <title>D账务梳理</title>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+    <meta http-equiv="content-type" content="text/html; charset=utf-8"/>
+    <meta name="apple-mobile-web-app-capable" content="yes"/>
+    <link href="resources/css/jquery-ui-themes.css" type="text/css" rel="stylesheet"/>
+    <link href="resources/css/axure_rp_page.css" type="text/css" rel="stylesheet"/>
+    <link href="data/styles.css" type="text/css" rel="stylesheet"/>
+    <link href="files/d账务梳理/styles.css" type="text/css" rel="stylesheet"/>
+    <script src="resources/scripts/jquery-1.7.1.min.js"></script>
+    <script src="resources/scripts/jquery-ui-1.8.10.custom.min.js"></script>
+    <script src="resources/scripts/axure/axQuery.js"></script>
+    <script src="resources/scripts/axure/globals.js"></script>
+    <script src="resources/scripts/axutils.js"></script>
+    <script src="resources/scripts/axure/annotation.js"></script>
+    <script src="resources/scripts/axure/axQuery.std.js"></script>
+    <script src="resources/scripts/axure/doc.js"></script>
+    <script src="data/document.js"></script>
+    <script src="resources/scripts/messagecenter.js"></script>
+    <script src="resources/scripts/axure/events.js"></script>
+    <script src="resources/scripts/axure/action.js"></script>
+    <script src="resources/scripts/axure/expr.js"></script>
+    <script src="resources/scripts/axure/geometry.js"></script>
+    <script src="resources/scripts/axure/flyout.js"></script>
+    <script src="resources/scripts/axure/ie.js"></script>
+    <script src="resources/scripts/axure/model.js"></script>
+    <script src="resources/scripts/axure/repeater.js"></script>
+    <script src="resources/scripts/axure/sto.js"></script>
+    <script src="resources/scripts/axure/utils.temp.js"></script>
+    <script src="resources/scripts/axure/variables.js"></script>
+    <script src="resources/scripts/axure/drag.js"></script>
+    <script src="resources/scripts/axure/move.js"></script>
+    <script src="resources/scripts/axure/visibility.js"></script>
+    <script src="resources/scripts/axure/style.js"></script>
+    <script src="resources/scripts/axure/adaptive.js"></script>
+    <script src="resources/scripts/axure/tree.js"></script>
+    <script src="resources/scripts/axure/init.temp.js"></script>
+    <script src="files/d账务梳理/data.js"></script>
+    <script src="resources/scripts/axure/legacy.js"></script>
+    <script src="resources/scripts/axure/viewer.js"></script>
+    <script type="text/javascript">
+      $axure.utils.getTransparentGifPath = function() { return 'resources/images/transparent.gif'; };
+      $axure.utils.getOtherPath = function() { return 'resources/Other.html'; };
+      $axure.utils.getReloadPath = function() { return 'resources/reload.html'; };
+    </script>
+  </head>
+  <body>
+    <div id="base" class="">
+
+      <!-- Unnamed (Shape) -->
+      <div id="u0" class="ax_paragraph">
+        <img id="u0_img" class="img " src="resources/images/transparent.gif"/>
+        <!-- Unnamed () -->
+        <div id="u1" class="text">
+          <p><span>见表格</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Shape) -->
+      <div id="u2" class="ax_paragraph">
+        <img id="u2_img" class="img " src="resources/images/transparent.gif"/>
+        <!-- Unnamed () -->
+        <div id="u3" class="text">
+          <p><span>钱隆核心系统说明文档</span><span></span></p><p><span>&nbsp;</span></p><p><span>“</span><span>投资人</span><span>-</span><span>钱隆</span><span>-</span><span>资金居间人</span><span>”</span><span>字段解释</span></p><p><span>PS：就本次迭代来说，对这张表的理解是重点</span><span></span></p><p><span>&nbsp;</span></p><p><span>1 </span><span>成本利率</span><span></span></p><p><span>钱隆代表投资人与资金居间人商议的资金成本，相当于资金居间人以</span><span>7%</span><span>的成本筹集资金。比如资金居间人使用</span><span>100</span><span>万</span><span>1</span><span>年，到期需付本息</span><span>107</span><span>万元。</span><span></span></p><p><span>&nbsp;</span></p><p><span>2 </span><span>钱隆</span><span></span></p><p><span>2.1 </span><span>钱隆团标</span><span></span></p><p><span>与之相对的是散标。</span><span></span></p><p><span>团标是</span><span>n</span><span>（</span><span>n</span><span>＞</span><span>1</span><span>）个债权的组合，投资人一笔投资给了</span><span>n</span><span>个借款人；</span><span></span></p><p><span>散标是</span><span>1</span><span>个债权，投资人一笔投资给了</span><span>1</span><span>个借款人。</span><span></span></p><p><span>钱隆平台目前只有一个团标，对接的是金屋贷的债权组合，面向投资人设定的基础收益率为</span><span>7%</span><span>。</span><span></span></p><p><span>&nbsp;</span></p><p><span>2.2 </span><span>债权总额</span><span></span></p><p><span>处于存续期的债权的总和，不考虑卖了多少，</span><span>&nbsp;</span><span>只考虑新增和失效。</span><span></span></p><p><span>公式：债权总额</span><span>=</span><span>上一天的债权总额</span><span>+</span><span>当天的债权变动</span><span></span></p><p><span>&nbsp;</span></p><p><span>2.3 </span><span>债权变动</span><span></span></p><p><span>·</span><span>展示新增债权或失效债权的总额，正数代表那一天新增了多少债权，负数代表那一天减少了多少债权。</span><span></span></p><p><span>·</span><span>由资金居间人根据</span><span>D0</span><span>天与资产居间人的交互，算出债权变动最终值，</span><span>D1</span><span>天在钱隆平台生效。</span><span></span></p><p><span>·</span><span>债权变动</span><span>=</span><span>当天资产居间人新增债权</span><span>−</span><span>当天资产居间人本金回款</span><span></span></p><p><span>&nbsp;</span></p><p><span>2.4 </span><span>出让债权（仅考虑一般投资人）</span><span></span></p><p><span>一般投资人：相对投资居间人而言的，在表中包括投资人</span><span>1</span><span>、投资人</span><span>2</span><span>。</span><span></span></p><p><span>所有一般投资人，当天在投金额的和。</span><span></span></p><p><span>出让债权</span><span>=</span><span>投资人</span><span>1</span><span>在投总额</span><span>+</span><span>投资人</span><span>2</span><span>在投总额</span><span></span></p><p><span>&nbsp;</span></p><p><span>2.5 </span><span>债权余额（仅考虑一般投资人）</span><span></span></p><p><span>一般投资人：相对投资居间人而言的，在表中包括投资人</span><span>1</span><span>、投资人</span><span>2</span><span>。</span><span></span></p><p><span>债权余额</span><span>=</span><span>债权总额</span><span>−</span><span>出让债权</span><span></span></p><p><span>债权余额</span><span>=</span><span>投资居间人在投总额</span><span></span></p><p><span>&nbsp;</span></p><p><span>3 </span><span>投资人</span><span>1</span><span>（投资人</span><span>2</span><span>各字段解释同投资人</span><span>1</span><span>）</span><span></span></p><p><span>钱隆平台的普通用户</span><span></span></p><p><span>&nbsp;</span></p><p><span>3.1 </span><span>在投总额</span><span></span></p><p><span>投资人</span><span>1</span><span>的当前投资额。</span><span></span></p><p><span>在投总额</span><span>=</span><span>上一天的在投总额</span><span>+</span><span>上一天的利息收入</span><span>+</span><span>当天的新增投资</span><span>−</span><span>当天的提现</span><span></span></p><p><span>&nbsp;</span></p><p><span>3.2 </span><span>新增投资</span><span></span></p><p><span>投资人</span><span>1</span><span>每天的投资。</span><span></span></p><p><span>&nbsp;</span></p><p><span>3.3 </span><span>提现</span><span></span></p><p><span>投资人</span><span>1</span><span>每天的提现。</span><span></span></p><p><span>&nbsp;</span></p><p><span>3.4 </span><span>收益</span><span>&amp;</span><span>复投</span><span></span></p><p><span>投资人</span><span>1</span><span>每天的投资收益，在下一日计入本金，自动复投。</span><span></span></p><p><span>收益</span><span>=</span><span>当天在投总额</span><span>*</span><span>团标利率</span><span>/365</span></p><p><span>&nbsp;</span></p><p><span>4 </span><span>投资居间人</span><span></span></p><p><span>对钱隆来讲，投资居间人的存在是为了平衡资金与债权，具体职能有如下三点：</span><span></span></p><p><span>·</span><span>每日的债权余额由投资居间人持有；</span><span></span></p><p><span>·</span><span>一般投资人提现，债权转让至投资居间人；</span><span></span></p><p><span>·</span><span>一般投资人每日复投时，相当于多买进债权，投资居间人账面做相应的提现，释放债权，待资产端每月结算收益时，投资居间人才拿到账面提现对应的金额。</span><span></span></p><p><span>&nbsp;</span></p><p><span>4.1 </span><span>在投总额</span><span></span></p><p><span>投资居间人的当前投资额。</span><span></span></p><p><span>在投总额</span><span>=</span><span>上一天的在投总额</span><span>+</span><span>上一天的利息收入</span><span>+</span><span>当天的投资居间人实际操作金额</span><span>−</span><span>当天的账面提现</span><span></span></p><p><span>验证公式：债权余额（仅考虑一般投资人）</span><span>=</span><span>投资居间人在投总额</span><span></span></p><p><span>&nbsp;</span></p><p><span>4.2 </span><span>每日实际操作金额</span><span></span></p><p><span>·</span><span>一般投资人每天都在发生很多笔投资和提现，平台债权也在发生了变动。到每天结束之前，系统要平衡资金和债权，即令资金</span><span>=</span><span>债权。</span><span></span></p><p><span>·</span><span>与上一天的在投总额相比，投资居间人可能需要追加资金，买进债权；也可能需要提现，释放债权给一般投资人。</span><span></span></p><p><span>·</span><span>到底要做什么操作，金额是多少，是非常重要的一项数据，这决定了第二天财务对投资居间人资金的操作。</span><span></span></p><p><span>·</span><span>该数字为正，投资居间人要追加投资，向三六五对公账户转入相应金额；该数字为负，投资居间人提现，从三六五对公账户转出相应金额。</span><span></span></p><p><span>·</span><span>居间人每日实际操作金额</span><span>=</span><span>当天债权变动</span><span>+</span><span>当天投资人</span><span>1</span><span>提现</span><span>+</span><span>当天投资人</span><span>2</span><span>提现</span><span>−</span><span>当天投资人</span><span>1</span><span>新增投资</span><span>−</span><span>当天投资人</span><span>2</span><span>新增投资</span><span></span></p><p><span>&nbsp;</span></p><p><span>4.3 </span><span>收益</span><span>&amp;</span><span>复投</span><span></span></p><p><span>投资居间人每天的投资收益，在下一日计入本金，自动复投。</span><span></span></p><p><span>收益</span><span>=</span><span>当天在投总额</span><span>*</span><span>团标利率</span><span>/365</span></p><p><span>&nbsp;</span></p><p><span>4.4 </span><span>复投带来的账面提现</span><span></span></p><p><span>·</span><span>从逻辑上来说，每一分每一秒，资金</span><span>=</span><span>债权。</span><span></span></p><p><span>·</span><span>一般投资人投资，代表着投资居间人提现；一般投资人提现，代表着投资居间人投资。</span><span></span></p><p><span>·</span><span>投资人</span><span>1</span><span>投资成功，当时就取得了债权，只是没有展示，要到一天结束，平衡资金和债权，进行债权匹配和计息后，才将这一天的最终值展示出来。</span><span></span></p><p><span>·</span><span>由于债权匹配的有效期为</span><span>1</span><span>天，所以进入下一天后，债权匹配就失效了。即本金和收益要回到所有投资者的账户，所有投资者要先做一笔提现，再做一笔投资，才实现了每日复投。</span><span></span></p><p><span>·PS</span><span>：以上</span><span>4</span><span>点仅就逻辑上来讲，旨在说清楚债权匹配、计息和复投，帮助阅读者理解，不完全代表系统层面和资金流方面的支持。</span><span></span></p><p><span>·</span><span>基于上述</span><span>5</span><span>点，投资居间人和一般投资人</span><span>D0</span><span>天的本金和投资收益，要先提现，在</span><span>D1</span><span>天</span><span>00:00:01</span><span>全部投资。</span><span></span></p><p><span>·</span><span>此时，对于平台来讲，售出的债权变多了，多出的数值是</span><span>D0</span><span>天计出的全部收益，因此投资居间人要进行一笔提现，以保证资金</span><span>=</span><span>债权。</span><span></span></p><p><span>·</span><span>这笔提现的根源是计出的收益，资产端的收益为月结，此时还没有回款，所以这笔提现只能是账面上的提现，等收益结算时核销。</span><span></span></p><p><span>·</span><span>账面提现</span><span>=</span><span>上一天投资人</span><span>1</span><span>利息收入</span><span>+</span><span>上一天投资人</span><span>2</span><span>利息收入</span><span>+</span><span>上一天投资居间人利息收入</span><span></span></p><p><span>&nbsp;</span></p><p><span>4.5 </span><span>累计账面提现（应收收益）</span><span></span></p><p><span>账面提现的累计，代表着每月收益结算时，资金居间人要付给投资居间人的钱。</span><span></span></p><p><span>应收收益</span><span>=</span><span>上一天应收收益</span><span>+</span><span>当天账面提现</span><span>−</span><span>当天投资居间人收益回款</span><span></span></p><p><span>&nbsp;</span></p><p><span>4.6 </span><span>应收收益结算</span><span></span></p><p><span>·</span><span>投资居间人收益结算</span><span>=</span><span>上一天投资居间人累计账面提现</span><span>+</span><span>当天投资居间人账面提现</span><span></span></p><p><span>&nbsp;</span></p><p><span>4.7 </span><span>账户总额</span><span></span></p><p><span>·</span><span>实质是投资居间人有多少钱在钱隆平台。</span><span></span></p><p><span>·</span><span>账户总额</span><span>=</span><span>当天在投总额</span><span>+</span><span>当天应收收益</span><span></span></p><p><span>&nbsp;</span></p><p><span>5 </span><span>资金居间人</span><span></span></p><p><span>为资产居间人提供资金，为钱隆的投资者提供债权。</span><span></span></p><p><span>&nbsp;</span></p><p><span>5.1 </span><span>新增债权</span><span></span></p><p><span>·</span><span>资产居间人有新的放款产生，发出债权转让请求，资金居间人在下一天将债权放到钱隆平台转让。</span><span></span></p><p><span>&nbsp;</span></p><p><span>5.2 </span><span>本金回款</span><span></span></p><p><span>· D1</span><span>天，信托回款后，资产居间人拿到回购债权款项，发起债权回购请求，资金居间人和钱隆依次接收请求，并收到款项，债权当天起归信托所有。</span><span></span></p><p><span>·D2</span><span>天，钱隆不录入被回购债权，平台债权减少。</span><span></span></p><p><span>&nbsp;</span></p><p><span>5.3 </span><span>应付收益</span><span></span></p><p><span>·</span><span>资金居间人每日应付给钱隆所有投资者的收益。</span><span></span></p><p><span>·</span><span>应付收益</span><span>=</span><span>当天债权总额</span><span>*</span><span>成本利率</span><span>/365</span></p><p><span>&nbsp;</span></p><p><span>5.4 </span><span>累计应付收益</span><span></span></p><p><span>·</span><span>每日应付收益的累加。</span><span></span></p><p><span>·</span><span>累加应付收益</span><span>=</span><span>上一天累计应付收益</span><span>+</span><span>当天应付收益</span><span>−</span><span>当天收益回款</span><span></span></p><p><span>&nbsp;</span></p><p><span>5.5 </span><span>收益回款</span><span></span></p><p><span>·</span><span>债权存续</span><span>5-7</span><span>天，这期间的收益月结，所经历的主要环节依次如下：</span><span></span></p><p><span>蜜蜂与资产居间人结算收益；</span><span></span></p><p><span>资产居间人与资金居间人结算收益；</span><span></span></p><p><span>资金居间人与钱隆结算收益；</span><span></span></p><p><span>钱隆与投资居间人结算收益。</span><span></span></p><p><span>·</span><span>收益回款的金额</span><span>=</span><span>上一天累计应付收益</span><span>+</span><span>当天应付收益</span><span></span></p><p><span>&nbsp;</span></p>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>

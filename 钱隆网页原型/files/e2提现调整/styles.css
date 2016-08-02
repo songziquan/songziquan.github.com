@@ -1,0 +1,38 @@
+﻿body {
+  margin:0px;
+  background-image:none;
+  position:static;
+  left:auto;
+  width:642px;
+  margin-left:0;
+  margin-right:0;
+  text-align:left;
+}
+#base {
+  position:absolute;
+  z-index:0;
+}
+#u0 {
+  position:absolute;
+  left:30px;
+  top:30px;
+  width:612px;
+  height:42px;
+  font-family:'', 'PingFang SC';
+  font-weight:400;
+  font-style:normal;
+}
+#u0_img {
+  position:absolute;
+  left:0px;
+  top:0px;
+  width:612px;
+  height:42px;
+}
+#u1 {
+  position:absolute;
+  left:0px;
+  top:0px;
+  width:612px;
+  white-space:nowrap;
+}

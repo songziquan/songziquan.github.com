@@ -1,0 +1,51 @@
+.transform(@value){
+	-webkit-transform: @value;
+	-moz-transform: @value;
+	-ms-transform: @value;
+	-o-transform: @value;
+	transform: @value;
+}
+.transition(@property: all; @during: 1s; @timing-function: cubic-bezier(0, 1.0, 0.5, 1.0); @delay: 0) {
+	-webkit-transition: @property @during @timing-function @delay;
+	-moz-transition: @property @during @timing-function @delay;
+	-ms-transition: @property @during @timing-function @delay;
+	-o-transition: @property @during @timing-function  @delay;
+	transition: @property @during @timing-function @delay;
+}
+.animation(@frame, @during, @timing-function, @delay, @count, @direct){
+	-webkit-animation: @frame, @during, @timing-function, @delay, @count, @direct;
+	-moz-animation: @frame, @during, @timing-function, @delay, @count, @direct;
+	-ms-animation: @frame, @during, @timing-function, @delay, @count, @direct;
+	-o-animation: @frame, @during, @timing-function, @delay, @count, @direct;
+	animation: @frame, @during, @timing-function, @delay, @count, @direct;
+	-webkit-animation-fill-mode: forwards;
+	-moz-animation-fill-mode: forwards;
+	-ms-animation-fill-mode: forwards;
+	-o-animation-fill-mode: forwards;
+	animation-fill-mode: forwards;
+}
+.flex(){
+	display: -webkit-box;
+	display: -moz-box;
+	display: -ms-box;
+	display: -o-box;
+	display: box;
+	display: -webkit-flex;
+	display: -moz-flex;
+	display: -ms-flex;
+	display: -o-flex;
+	display: flex;
+}
+.flex-children(@value: 1){
+	-webkit-box-flex: @value;
+	-moz-box-flex: @value;
+	-ms-box-flex: @value;
+	-o-box-flex: @value;
+	box-flex: @value;
+	-webkit-flex: @value;
+	-moz-flex: @value;
+	-ms-flex: @value;
+	-o-flex: @value;
+	flex: @value;
+	width: 0;
+}
